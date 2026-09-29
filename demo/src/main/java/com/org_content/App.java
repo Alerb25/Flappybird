@@ -18,6 +18,9 @@ public class App extends Application {
     public static final int WIDTH = 480;
     public static final int HEIGHT = 640;
     
+    /** 
+     * @param stage
+     */
     @Override
     public void start(Stage stage) {
         GamePane game = new GamePane(); 
@@ -32,6 +35,9 @@ public class App extends Application {
 
     }
 
+        /** 
+         * @param args
+         */
         public static void main(String[] args) {
         launch(args);
     }

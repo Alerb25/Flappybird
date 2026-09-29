@@ -60,6 +60,9 @@ public class GamePane extends Pane{
         loop.start();
     }
 
+    /** 
+     * @param now
+     */
     // logic
     private void update(long now) {
         if (!started || gameOver) return;
@@ -119,6 +122,9 @@ public class GamePane extends Pane{
         if (gameOver)  drawCenteredMsg("Game Over  –  ESPACIO para reiniciar");
     }
 
+    /** 
+     * @param msg
+     */
     private void drawCenteredMsg(String msg) {
         gc.setFill(Color.color(0, 0, 0, 0.45));
         gc.fillRoundRect(40, App.HEIGHT / 2.0 - 50, App.WIDTH - 80, 80, 16, 16);

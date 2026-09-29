@@ -25,11 +25,19 @@ public class Pipe {
     public void update() { x -= SPEED; }
     public boolean isOffScreen() { return x + WIDTH < 0; }
 
+    /** 
+     * @param b
+     * @return boolean
+     */
     public boolean passed(Bird b) {
         if (!scored && b.getX() > x + WIDTH) { scored = true; return true; }
         return false;
     }
 
+    /** 
+     * @param b
+     * @return boolean
+     */
     public boolean hits(Bird b) {
         double bx = b.getX(), by = b.getY();
         boolean overlapX = bx + Bird.SIZE > x && bx < x + WIDTH;
@@ -39,6 +47,9 @@ public class Pipe {
         return topPipe || bottomPipe;
     }
 
+    /** 
+     * @param gc
+     */
     public void render(GraphicsContext gc) {
         //top pipe
         drawPipe(gc, x, 0, WIDTH, gapTop);
@@ -47,6 +58,13 @@ public class Pipe {
         drawPipe(gc, x, botY, WIDTH, App.HEIGHT - 60 - botY);
     }
 
+    /** 
+     * @param gc
+     * @param px
+     * @param py
+     * @param pw
+     * @param ph
+     */
     private void drawPipe(GraphicsContext gc, double px, double py, double pw, double ph) {
         // body
         gc.setFill(Color.web("#4CAF50"));

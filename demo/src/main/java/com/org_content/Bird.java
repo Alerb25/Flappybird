@@ -28,6 +28,9 @@ public class Bird {
         y  += vy;
     }
 
+     /** 
+      * @param gc
+      */
      public void render(GraphicsContext gc) {
         double angle = Math.toDegrees(Math.atan2(vy, 6));
         angle = Math.max(-30, Math.min(angle, 90));
