@@ -1,0 +1,54 @@
+-J-Duser.language=
+-J-Duser.country=
+@options
+@packages
+@argfile
+--no-fonts
+--class-path
+'C:/Users/aruiz/.m2/repository/org/openjfx/javafx-controls/13/javafx-controls-13.jar;C:/Users/aruiz/.m2/repository/org/openjfx/javafx-graphics/13/javafx-graphics-13.jar;C:/Users/aruiz/.m2/repository/org/openjfx/javafx-base/13/javafx-base-13.jar'
+--module-path
+'C:/Users/aruiz/.m2/repository/org/openjfx/javafx-base/13/javafx-base-13-win.jar;C:/Users/aruiz/Desktop/Flappybird/demo/target/classes;C:/Users/aruiz/.m2/repository/org/openjfx/javafx-controls/13/javafx-controls-13-win.jar;C:/Users/aruiz/.m2/repository/org/openjfx/javafx-graphics/13/javafx-graphics-13-win.jar'
+--patch-module
+com.org_content='C:/Users/aruiz/Desktop/Flappybird/demo/src/main/java'
+-encoding
+'UTF-8'
+-protected
+-source
+'11'
+--module-source-path
+'C:/Users/aruiz/Desktop/Flappybird/demo/target/reports/apidocs/src'
+-author
+-bottom
+'Copyright &#169; 2026. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/aruiz/Desktop/Flappybird/demo/target/reports/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'demo 1.0-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/en/java/javase/11/docs/api' 'C:/Users/aruiz/Desktop/Flappybird/demo/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'demo 1.0-SNAPSHOT API'
+com.org_content
+'C:/Users/aruiz/Desktop/Flappybird/demo/src/main/java/module-info.java'
+C:\Users\aruiz\Desktop\Flappybird\demo\target\reports\apidocs\allclasses-index.html = 1790695681487
+C:\Users\aruiz\Desktop\Flappybird\demo\target\reports\apidocs\allpackages-index.html = 1790695681491
+C:\Users\aruiz\Desktop\Flappybird\demo\target\reports\apidocs\constant-values.html = 1790695681436
+C:\Users\aruiz\Desktop\Flappybird\demo\target\reports\apidocs\element-list = 1790695681406
+C:\Users\aruiz\Desktop\Flappybird\demo\target\reports\apidocs\help-doc.html = 1790695681536
+C:\Users\aruiz\Desktop\Flappybird\demo\target\reports\apidocs\index-all.html = 1790695681520
+C:\Users\aruiz\Desktop\Flappybird\demo\target\reports\apidocs\index.html = 1790695681526
+C:\Users\aruiz\Desktop\Flappybird\demo\target\reports\apidocs\member-search-index.js = 1790695681498
+C:\Users\aruiz\Desktop\Flappybird\demo\target\reports\apidocs\module-search-index.js = 1790695681493
+C:\Users\aruiz\Desktop\Flappybird\demo\target\reports\apidocs\overview-tree.html = 1790695681467
+C:\Users\aruiz\Desktop\Flappybird\demo\target\reports\apidocs\package-search-index.js = 1790695681495
+C:\Users\aruiz\Desktop\Flappybird\demo\target\reports\apidocs\search.html = 1790695681524
+C:\Users\aruiz\Desktop\Flappybird\demo\target\reports\apidocs\tag-search-index.js = 1790695681500
+C:\Users\aruiz\Desktop\Flappybird\demo\target\reports\apidocs\type-search-index.js = 1790695681496
+
+
