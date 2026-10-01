@@ -24,3 +24,4 @@ In this project I simulate the game´s mechanics where the player has to control
   - Game restart after losing
 # Used technologies
 - JavaFX 
+
